@@ -1,0 +1,623 @@
+@media (max-width: 1200px) {
+    .box {
+        grid-template-columns: repeat(2, 45%);
+        gap: 30px;
+    }
+    .citygrid {
+        grid-template-columns: repeat(2, 45%);
+        margin: 50px 40px 80px 40px;
+        gap: 30px;
+    }
+    .plan-grid {
+        grid-template-columns: repeat(2, 45%);
+    }
+    .cust {
+        grid-template-columns: repeat(2, 45%);
+    }
+    .food-img img {
+        width: 33vw;
+    }
+    .phnim {
+        width: 30vw;
+    }
+    .howtxt {
+        font-size: 26px;
+    }
+    .fhead {
+        width: 70vw;
+    }
+    .fhead h2 {
+        font-size: 36px;
+    }
+    .hero h1 {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .box {
+        grid-template-columns: repeat(2, 42%);
+        gap: 25px;
+    }
+    .citygrid {
+        grid-template-columns: repeat(2, 42%);
+        margin: 40px 30px 60px 30px;
+        gap: 25px;
+    }
+    .plan-grid {
+        grid-template-columns: repeat(2, 42%);
+        width: 85vw;
+    }
+    .cust {
+        grid-template-columns: repeat(2, 42%);
+        width: 85vw;
+    }
+    .food-img img {
+        width: 30vw;
+        height: 170px;
+    }
+    .phnim {
+        width: 28vw;
+    }
+    .howtxt {
+        font-size: 22px;
+    }
+    .bltp {
+        width: 42px;
+        height: 42px;
+        font-size: 22px;
+    }
+    .fhead {
+        width: 75vw;
+    }
+    .fhead h2 {
+        font-size: 32px;
+    }
+    .hero h1 {
+        font-size: 2.2rem;
+        line-height: 42px;
+    }
+    .btn {
+        font-size: 1.1rem;
+    }
+    nav ul li a {
+        font-size: 17px;
+    }
+    nav ul li {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .food-gal {
+        display: none;
+    }
+    .how-hero {
+        grid-template-columns: 1fr;
+    }
+    .howimg {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .phnim {
+        width: 45vw;
+    }
+    .how-step {
+        padding: 0 30px;
+    }
+    nav {
+        padding: 20px 20px 0 20px;
+    }
+    nav img {
+        width: 120px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    nav ul li {
+        margin-left: 10px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    .hero {
+        padding-left: 30px;
+        padding-top: 10vh;
+    }
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 38px;
+        letter-spacing: 2px;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 12px;
+        margin: 0 10px;
+    }
+    .box {
+        grid-template-columns: 1fr;
+        width: 85vw;
+        gap: 30px;
+    }
+    .fhead {
+        width: 85vw;
+    }
+    .fhead h2 {
+        font-size: 28px;
+    }
+    .how-work {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .how-head h2 {
+        font-size: 28px;
+    }
+    .howtxt {
+        font-size: 20px;
+    }
+    .bltp {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .city-sec h2 {
+        font-size: 26px;
+    }
+    .citygrid {
+        grid-template-columns: repeat(2, 45%);
+        margin: 30px 20px 50px 20px;
+        gap: 25px;
+    }
+    .cittxt {
+        font-size: 18px;
+    }
+    .city-icon {
+        font-size: 24px;
+    }
+    .cust {
+        grid-template-columns: 1fr;
+        width: 85vw;
+        padding-bottom: 60px;
+    }
+    .plan-grid {
+        grid-template-columns: 1fr;
+        width: 80vw;
+    }
+    .contact-form form {
+        width: 85vw;
+    }
+    .foot-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 40px 20px 20px 20px;
+    }
+    .foot-grid ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 15px 15px 0 15px;
+    }
+    nav img {
+        width: 110px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    .hero {
+        padding-left: 20px;
+        padding-top: 8vh;
+    }
+    .hero h1 {
+        font-size: 1.7rem;
+        line-height: 35px;
+    }
+    .btn {
+        font-size: 0.95rem;
+        padding: 10px 16px;
+    }
+    .box {
+        width: 88vw;
+        gap: 25px;
+    }
+    .fhead {
+        width: 88vw;
+    }
+    .fhead h2 {
+        font-size: 25px;
+    }
+    .fhead p {
+        font-size: 17px;
+    }
+    .box h2 {
+        font-size: 24px;
+    }
+    .box p {
+        font-size: 16px;
+    }
+    .icon {
+        font-size: 48px;
+    }
+    .how-head h2 {
+        font-size: 25px;
+    }
+    .phnim {
+        width: 55vw;
+    }
+    .how-step {
+        padding: 0 15px;
+    }
+    .howtxt {
+        font-size: 18px;
+    }
+    .bltp {
+        width: 38px;
+        height: 38px;
+        font-size: 19px;
+    }
+    .city-sec h2 {
+        font-size: 22px;
+    }
+    .citygrid {
+        grid-template-columns: repeat(2, 45%);
+        margin: 25px 15px 40px 15px;
+        gap: 20px;
+    }
+    .cittxt {
+        font-size: 16px;
+    }
+    .city-icon {
+        font-size: 22px;
+    }
+    .cust {
+        width: 88vw;
+        padding-bottom: 50px;
+    }
+    .cust p {
+        font-size: 16px;
+    }
+    .plan-grid {
+        width: 85vw;
+    }
+    .plan-top article {
+        font-size: 42px;
+    }
+    .contact-form form {
+        width: 88vw;
+    }
+    .form-ali {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    .foot-grid {
+        padding: 30px 15px 15px 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 10px 0 10px;
+    }
+    nav img {
+        width: 110px;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    nav ul li {
+        margin-left: 5px;
+    }
+    nav ul li a {
+        font-size: 13px;
+    }
+    .hero {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8vh;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 42px;
+        letter-spacing: 1px;
+        padding: 30px 0 20px 0;
+        font-weight: 300;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 12px 20px;
+        margin: 10px 8px;
+        display: inline-block;
+    }
+    .feat-sec {
+        min-height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .fhead {
+        width: 90vw;
+    }
+    .fhead h2 {
+        font-size: 22px;
+    }
+    .fhead p {
+        font-size: 16px;
+    }
+    .box {
+        width: 90vw;
+        gap: 25px;
+    }
+    .box h2 {
+        font-size: 22px;
+    }
+    .box p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .icon {
+        font-size: 40px;
+    }
+    .how-work {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .how-head h2 {
+        font-size: 22px;
+    }
+    .howimg {
+        padding: 10px 0;
+    }
+    .phnim {
+        width: 75vw;
+    }
+    .how-step {
+        padding: 0 15px;
+    }
+    .how-step > div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .howtxt {
+        font-size: 17px;
+    }
+    .bltp {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        margin-right: 0;
+    }
+    .down-app {
+        justify-content: center;
+    }
+    .down-app img {
+        height: 55px;
+    }
+    .city-sec {
+        margin-top: 30px;
+    }
+    .city-sec h2 {
+        font-size: 20px;
+    }
+    .citygrid {
+        grid-template-columns: 1fr;
+        margin: 25px 15px 35px 15px;
+        gap: 25px;
+    }
+    .imgsel h1 {
+        font-size: 24px;
+    }
+    .cittxt {
+        font-size: 16px;
+    }
+    .cust-h h1 {
+        font-size: 18px;
+    }
+    .cust p {
+        font-size: 15px;
+        line-height: 1.6rem;
+    }
+    .cust {
+        width: 90vw;
+        padding-bottom: 40px;
+    }
+    .custgrid::before {
+        font-size: 4rem;
+        top: -2rem;
+        left: -0.5rem;
+    }
+    .planh h1 {
+        font-size: 18px;
+    }
+    .plan-grid {
+        width: 90vw;
+        gap: 20px;
+    }
+    .plan-top article {
+        font-size: 36px;
+    }
+    .plan-top span {
+        font-size: 18px;
+    }
+    .plan ul li {
+        font-size: 15px;
+    }
+    .contact-form form {
+        width: 90vw;
+    }
+    .form-ali {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .form-ali label {
+        font-size: 16px;
+    }
+    .form-ali input,
+    .form-ali select,
+    .form-ali textarea {
+        height: 32px;
+        font-size: 14px;
+    }
+    .form-ali textarea {
+        height: 80px;
+    }
+    .foot-grid ul {
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav img {
+        width: 90px;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+        line-height: 36px;
+    }
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+        margin: 8px 5px;
+    }
+    .fhead h2 {
+        font-size: 20px;
+    }
+    .fhead p {
+        font-size: 14px;
+    }
+    .box h2 {
+        font-size: 20px;
+    }
+    .box p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .icon {
+        font-size: 35px;
+    }
+    .how-head h2 {
+        font-size: 20px;
+    }
+    .phnim {
+        width: 80vw;
+    }
+    .howtxt {
+        font-size: 15px;
+    }
+    .bltp {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .down-app img {
+        height: 45px;
+    }
+    .city-sec h2 {
+        font-size: 18px;
+    }
+    .imgsel h1 {
+        font-size: 22px;
+    }
+    .cittxt {
+        font-size: 14px;
+    }
+    .city-icon {
+        font-size: 20px;
+    }
+    .cust-h h1 {
+        font-size: 16px;
+    }
+    .cust p {
+        font-size: 14px;
+    }
+    .custgrid::before {
+        font-size: 3rem;
+        top: -1.5rem;
+        left: -0.3rem;
+    }
+    .planh h1 {
+        font-size: 16px;
+    }
+    .plan-top article {
+        font-size: 30px;
+    }
+    .plan-top span {
+        font-size: 15px;
+    }
+    .plan ul li {
+        font-size: 14px;
+    }
+    .form-ali label {
+        font-size: 14px;
+    }
+    .form-ali input,
+    .form-ali select,
+    .form-ali textarea {
+        height: 30px;
+        font-size: 13px;
+    }
+    .form-ali textarea {
+        height: 70px;
+    }
+    .foot-grid ul {
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero h1 {
+        font-size: 1.3rem;
+        line-height: 32px;
+    }
+    .btn {
+        font-size: 0.8rem;
+        padding: 8px 14px;
+    }
+    .fhead h2 {
+        font-size: 18px;
+    }
+    .box p {
+        font-size: 13px;
+    }
+    .howtxt {
+        font-size: 14px;
+    }
+    .city-sec h2 {
+        font-size: 16px;
+    }
+    .plan-top article {
+        font-size: 26px;
+    }
+    .plan ul li {
+        font-size: 13px;
+    }
+    .form-ali input,
+    .form-ali select {
+        font-size: 12px;
+    }
+}       
